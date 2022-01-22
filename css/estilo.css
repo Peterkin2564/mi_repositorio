@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* estilos generales*/
 
 body{
@@ -174,4 +175,178 @@ fieldset{
     .dibujo{margin-left: 1rem;
         width: 280px}
     .tablero{width: 280px; height: 350px;}
+=======
+/* estilos generales*/
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: #ffffff;
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+footer{
+    font-size: small;
+    text-align: center;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:40px;   
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 35%); margin: 0px;
+    position:static;
+    margin-bottom: -30px;
+    margin-top: auto;
+    color: black;
+    
+}
+.menu{
+    text-align: right;
+    word-spacing: 2rem;
+    margin-right: 4rem;
+    
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+a:hover{
+    background-color:#9ACFDD ;
+}
+a:active {
+    background-color: #202731;
+    color: white
+}
+img{
+    max-width: 20%;
+    height: auto;
+}
+/* home*/
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; font-size: 80px; color: #ffffff; padding-left: 8rem;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 0px;
+    background-color: #7740f8;
+
+}
+.landing1{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 40px;
+    padding-top: 100px;
+}
+.titulo1{
+    padding-right: 30px;
+}
+.landing2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 40px;
+    padding-top: 100px;
+}
+.titulo2{
+    padding-left: 30px;
+}
+h2{
+    text-align: center;
+}
+.bajar{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* sketchboard*/
+.tablero{
+    width: 1500px;
+    height: 600px;
+    background-color: azure;
+    border: 3px solid #0b7cd9;
+    margin-left: 16px;    
+    
+}
+/* ver dibujos*/
+.fotosmuro{
+    width: 200px;
+    height: 200px;
+}
+.dibujo{
+    width: 600px;
+    height: 300px;
+    background-color: azure;
+    border: 3px solid #0b7cd9;
+    margin-left: 200px;
+    
+}
+.elfoot{
+    position:absolute;
+    bottom:0px;
+    position:static;
+    margin-bottom: -700px;
+}
+/* perfil*/
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.foto_perfil{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* contactanos*/
+.tituloform{
+    text-align: left;
+    margin-left: 30px;
+}
+textarea{
+    margin-left: 10px;
+}
+fieldset{
+    vertical-align: 0px;
+}
+
+/* Responsive*/
+@media (max-width:576px) {
+    .menu{
+        text-align: center;
+        word-spacing: 1rem;
+        margin: 0rem;}
+    
+    img{display: none;}
+
+    h1{text-align: center; font-size: 2.5rem; padding-left: 0rem;}
+    .logo{text-align: center; font-size: 5rem;}
+    .landing1{
+    text-align: center;}
+    .landing2{
+    text-align: center; padding-left: 0px;
+    }
+    h2{font-size: 1rem; padding: 1rem;}
+    footer{font-size: 0.5rem; margin-bottom: 0px; background: rgb(255, 255, 255); }
+    textarea{
+        margin-left: 0px; }
+    .dibujo{margin-left: 1rem;
+        width: 280px}
+    .tablero{width: 280px; height: 350px;}
+>>>>>>> 5fa55f1dc7cb523af453dfbd00c24a4662d3e0aa
 }
