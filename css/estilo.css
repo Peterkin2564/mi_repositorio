@@ -40,10 +40,12 @@ a:link, a:visited{
 }
 a:hover{
     background-color:#9ACFDD ;
+    text-decoration: none;
 }
 a:active {
     background-color: #202731;
-    color: white
+    color: white;
+    text-decoration: none;
 }
 img{
     max-width: 20%;
@@ -93,11 +95,13 @@ h2{
 }
 /* sketchboard*/
 .tablero{
-    width: 1500px;
+    width: 97%;
     height: 600px;
     background-color: azure;
     border: 3px solid #0b7cd9;
-    margin-left: 16px;    
+    margin-left: 16px; 
+    margin-right: 16px;
+    align-items: center;   
     
 }
 /* ver dibujos*/
