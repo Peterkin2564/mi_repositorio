@@ -1,0 +1,8 @@
+/*MAPS*/
+$mapRedes:(home:red,sketchboard:blue,verdibujos:yellow,link:green,contactanos:violet);
+
+@each $red, $color in $mapRedes {
+    .#{$red}--link {
+        color: $color;
+    }
+}

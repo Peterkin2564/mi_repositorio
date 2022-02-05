@@ -1,0 +1,10 @@
+/* MIXIN CON PARAMETROS*/
+
+@mixin tituloConParametros($size,$alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+}
+
+.tituloDelIndex {
+    @include tituloConParametros(3rem,center);
+}
