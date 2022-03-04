@@ -7,6 +7,6 @@
 }
 
 .segundoEstilo {
-      @extend .primerEstilo; 
+      @extend Estilo; 
       text-align: left;
 }     
